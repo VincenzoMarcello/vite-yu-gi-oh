@@ -1,0 +1,12 @@
+// # VARIABLES
+@use "./partials/variables" as *;
+
+// # MIXINS
+@use "./partials/mixins.scss" as *;
+
+// # RULES
+
+body {
+  height: 100vh;
+  background-image: url("/bg-yugioh.jpg");
+}
