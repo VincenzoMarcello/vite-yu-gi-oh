@@ -22,10 +22,10 @@ export default {
 
     // ???
     fetchArch(fullApiYu) {
-      axios.get(fullApiYu).then((response) => {
-        this.archetypes = response.data;
-        console.log(response.data);
-      });
+      // axios.get(fullApiYu).then((response) => {
+      //   this.archetypes = response.data;
+      //   console.log(response.data);
+      // });
     },
   },
 };
